@@ -6,7 +6,6 @@ import time
 from ..codec import (has_gzip, has_snappy, has_lz4,
                      gzip_decode, snappy_decode,
                      lz4_decode, lz4_decode_old_kafka)
-from . import pickle
 from .struct import Struct
 from .types import (
     Int8, Int32, Int64, Bytes, Schema, AbstractType
